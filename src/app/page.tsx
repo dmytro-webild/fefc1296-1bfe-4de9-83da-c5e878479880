@@ -34,27 +34,20 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Home",
-          id: "home",
-        },
+          name: "Home",          id: "home"},
         {
-          name: "Rooms",
-          id: "rooms",
-        },
+          name: "Rooms",          id: "rooms"},
         {
-          name: "Dining",
-          id: "dining",
-        },
+          name: "Dining",          id: "dining"},
         {
-          name: "FAQ",
-          id: "faq",
-        },
+          name: "FAQ",          id: "faq"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Hotel The Kashmir"
+      button={{
+        text: "Book Now",        href: "#contact"
+      }}
     />
   </div>
 
@@ -64,39 +57,23 @@ export default function LandingPage() {
       description="A peaceful boutique hotel experience in Srinagar with elegant interiors, spacious rooms, delicious food, and personalized hospitality."
       buttons={[
         {
-          text: "Book Your Stay",
-          href: "#contact",
-        },
+          text: "Book Your Stay",          href: "#contact"},
         {
-          text: "Explore Rooms",
-          href: "#rooms",
-        },
+          text: "Explore Rooms",          href: "#rooms"},
       ]}
       slides={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/lifestyle-home-nobody-clean-morning_1203-4679.jpg",
-          imageAlt: "Luxurious Hotel Interior",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/lifestyle-home-nobody-clean-morning_1203-4679.jpg",          imageAlt: "Luxurious Hotel Interior"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-swimwear-standing-with-hands-hip-near-poolside_107420-9848.jpg",
-          imageAlt: "Dal Lake Scenery",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-swimwear-standing-with-hands-hip-near-poolside_107420-9848.jpg",          imageAlt: "Dal Lake Scenery"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-boho-style-bedroom_23-2149637993.jpg",
-          imageAlt: "Cozy Bedroom",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-boho-style-bedroom_23-2149637993.jpg",          imageAlt: "Cozy Bedroom"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/night-view-hanging-houses-cuenca_1398-2111.jpg",
-          imageAlt: "Warm Hotel Lobby",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/night-view-hanging-houses-cuenca_1398-2111.jpg",          imageAlt: "Warm Hotel Lobby"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/pretty-european-positive-smiling-woman-summer-flying-dress-natural-day-light-villa-terrace-enjoying-beautiful-vacation-outdoor-sofa-with-pillows-tropical_343596-1155.jpg",
-          imageAlt: "Scenic Mountain Balcony",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/pretty-european-positive-smiling-woman-summer-flying-dress-natural-day-light-villa-terrace-enjoying-beautiful-vacation-outdoor-sofa-with-pillows-tropical_343596-1155.jpg",          imageAlt: "Scenic Mountain Balcony"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/cozy-lively-home-interior-design_23-2151118971.jpg",
-          imageAlt: "Boutique Hotel Tranquility",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/cozy-lively-home-interior-design_23-2151118971.jpg",          imageAlt: "Boutique Hotel Tranquility"},
       ]}
     />
   </div>
@@ -108,20 +85,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       negativeCard={{
         items: [
-          "No City Noise",
-          "No Crowded Spaces",
-          "No Impersonal Service",
-        ],
+          "No City Noise",          "No Crowded Spaces",          "No Impersonal Service"],
       }}
       positiveCard={{
         items: [
-          "Spacious & Hygienic Rooms",
-          "Peaceful Ambience",
-          "Delicious Home-Style Food",
-          "Personalized Hospitality",
-          "Near Dal Lake",
-          "Taxi & Travel Assistance",
-        ],
+          "Spacious & Hygienic Rooms",          "Peaceful Ambience",          "Delicious Home-Style Food",          "Personalized Hospitality",          "Near Dal Lake",          "Taxi & Travel Assistance"],
       }}
       title="Why Guests Love Hotel The Kashmir"
       description="At Hotel The Kashmir, every guest is welcomed with warmth, care, and genuine hospitality in our peaceful environment."
@@ -136,41 +104,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "r1",
-          name: "Deluxe Room",
-          price: "From ₹4,500",
-          imageSrc: "http://img.b2bpic.net/free-photo/luxurious-modern-bedroom-with-comfortable-bedding-elegant-decor-generated-by-ai_188544-29870.jpg",
-        },
+          id: "r1",          name: "Deluxe Room",          price: "From ₹4,500",          imageSrc: "http://img.b2bpic.net/free-photo/luxurious-modern-bedroom-with-comfortable-bedding-elegant-decor-generated-by-ai_188544-29870.jpg"},
         {
-          id: "r2",
-          name: "Family Suite",
-          price: "From ₹7,500",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-trying-work-laptop-from-home-while-her-children-are-running-around_23-2149009345.jpg",
-        },
+          id: "r2",          name: "Family Suite",          price: "From ₹7,500",          imageSrc: "http://img.b2bpic.net/free-photo/man-trying-work-laptop-from-home-while-her-children-are-running-around_23-2149009345.jpg"},
         {
-          id: "r3",
-          name: "Premium Mountain View",
-          price: "From ₹9,000",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-taking-photo-morning-mist-phu-lang-ka-phayao-thailand_335224-950.jpg",
-        },
+          id: "r3",          name: "Premium Mountain View",          price: "From ₹9,000",          imageSrc: "http://img.b2bpic.net/free-photo/woman-taking-photo-morning-mist-phu-lang-ka-phayao-thailand_335224-950.jpg"},
         {
-          id: "r4",
-          name: "Standard Comfort",
-          price: "From ₹3,500",
-          imageSrc: "http://img.b2bpic.net/free-photo/pillow-bed_74190-3650.jpg",
-        },
+          id: "r4",          name: "Standard Comfort",          price: "From ₹3,500",          imageSrc: "http://img.b2bpic.net/free-photo/pillow-bed_74190-3650.jpg"},
         {
-          id: "r5",
-          name: "Heritage Room",
-          price: "From ₹5,500",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-romantic-breakfast-bed-arrangement_23-2150956539.jpg",
-        },
+          id: "r5",          name: "Heritage Room",          price: "From ₹5,500",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-romantic-breakfast-bed-arrangement_23-2150956539.jpg"},
         {
-          id: "r6",
-          name: "Kashmir Classic",
-          price: "From ₹4,000",
-          imageSrc: "http://img.b2bpic.net/free-photo/cozy-van-interior-prepared-camping_23-2151938566.jpg",
-        },
+          id: "r6",          name: "Kashmir Classic",          price: "From ₹4,000",          imageSrc: "http://img.b2bpic.net/free-photo/cozy-van-interior-prepared-camping_23-2151938566.jpg"},
       ]}
       title="Elegant Rooms Designed for Comfort"
       description="Select from our range of meticulously designed accommodations tailored for a relaxing Srinagar experience."
@@ -184,40 +128,15 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "t1",
-          name: "Sarah Johnson",
-          handle: "Traveler",
-          testimonial: "The environment is peaceful and relaxing. Definitely worth the price.",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiley-woman-with-backpack_23-2148518190.jpg",
-        },
+          id: "t1",          name: "Sarah Johnson",          handle: "Traveler",          testimonial: "The environment is peaceful and relaxing. Definitely worth the price.",          imageSrc: "http://img.b2bpic.net/free-photo/smiley-woman-with-backpack_23-2148518190.jpg"},
         {
-          id: "t2",
-          name: "Michael Chen",
-          handle: "Family",
-          testimonial: "Fantastic hospitality! Everything was perfect. Felt at home.",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-couple-traveling-together_23-2149201389.jpg",
-        },
+          id: "t2",          name: "Michael Chen",          handle: "Family",          testimonial: "Fantastic hospitality! Everything was perfect. Felt at home.",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-couple-traveling-together_23-2149201389.jpg"},
         {
-          id: "t3",
-          name: "Emily Rodriguez",
-          handle: "Couple",
-          testimonial: "The owner treated us with utmost generosity and humbleness.",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-hipster-beautiful-couple-love-holding-smartphone-taking-pictures-sitting-rock-river-winter-forest_285396-2189.jpg",
-        },
+          id: "t3",          name: "Emily Rodriguez",          handle: "Couple",          testimonial: "The owner treated us with utmost generosity and humbleness.",          imageSrc: "http://img.b2bpic.net/free-photo/young-hipster-beautiful-couple-love-holding-smartphone-taking-pictures-sitting-rock-river-winter-forest_285396-2189.jpg"},
         {
-          id: "t4",
-          name: "David Kim",
-          handle: "Solo Traveler",
-          testimonial: "Elegant and classy interiors. Felt like a premium experience.",
-          imageSrc: "http://img.b2bpic.net/free-photo/brunette-girl-giving-thumb-up_23-2147650951.jpg",
-        },
+          id: "t4",          name: "David Kim",          handle: "Solo Traveler",          testimonial: "Elegant and classy interiors. Felt like a premium experience.",          imageSrc: "http://img.b2bpic.net/free-photo/brunette-girl-giving-thumb-up_23-2147650951.jpg"},
         {
-          id: "t5",
-          name: "Rahul Verma",
-          handle: "Family",
-          testimonial: "The staff members were friendly and helpful throughout our stay.",
-          imageSrc: "http://img.b2bpic.net/free-photo/rear-view-loving-mature-couple_1398-4304.jpg",
-        },
+          id: "t5",          name: "Rahul Verma",          handle: "Family",          testimonial: "The staff members were friendly and helpful throughout our stay.",          imageSrc: "http://img.b2bpic.net/free-photo/rear-view-loving-mature-couple_1398-4304.jpg"},
       ]}
       title="Hospitality That Guests Remember"
       description="Discover why our guests consistently rate us as a top choice in Srinagar."
@@ -231,34 +150,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          value: "2km",
-          title: "Dal Lake",
-          items: [
-            "Scenic surroundings",
-            "Cultural landmark",
-            "Easy access",
-          ],
+          id: "m1",          value: "2km",          title: "Dal Lake",          items: [
+            "Scenic surroundings",            "Cultural landmark",            "Easy access"],
         },
         {
-          id: "m2",
-          value: "10min",
-          title: "Local Markets",
-          items: [
-            "Shopping area",
-            "Authentic crafts",
-            "Handmade goods",
-          ],
+          id: "m2",          value: "10min",          title: "Local Markets",          items: [
+            "Shopping area",            "Authentic crafts",            "Handmade goods"],
         },
         {
-          id: "m3",
-          value: "15min",
-          title: "Mughal Gardens",
-          items: [
-            "Historic gardens",
-            "Nature walk",
-            "Heritage site",
-          ],
+          id: "m3",          value: "15min",          title: "Mughal Gardens",          items: [
+            "Historic gardens",            "Nature walk",            "Heritage site"],
         },
       ]}
       title="Perfectly Located in Rajbagh, Srinagar"
@@ -287,23 +188,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       members={[
         {
-          id: "mem1",
-          name: "Mr. Ahmed",
-          role: "Hotel Director",
-          imageSrc: "http://img.b2bpic.net/free-photo/male-front-desk-receptionist-luxury-resort-checking-visitors-passports-before-registration-asian-visitor-sipping-coffee-modern-waiting-lounge-ready-make-reservation-modern-hotel_482257-68060.jpg",
-        },
+          id: "mem1",          name: "Mr. Ahmed",          role: "Hotel Director",          imageSrc: "http://img.b2bpic.net/free-photo/male-front-desk-receptionist-luxury-resort-checking-visitors-passports-before-registration-asian-visitor-sipping-coffee-modern-waiting-lounge-ready-make-reservation-modern-hotel_482257-68060.jpg"},
         {
-          id: "mem2",
-          name: "Fatima",
-          role: "Guest Experience",
-          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-curly-woman-enjoying-her-holiday_23-2148631378.jpg",
-        },
+          id: "mem2",          name: "Fatima",          role: "Guest Experience",          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-curly-woman-enjoying-her-holiday_23-2148631378.jpg"},
         {
-          id: "mem3",
-          name: "Zaid",
-          role: "Travel Concierge",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-overweight-couple-traveling-world-world-tourism-day_23-2151700158.jpg",
-        },
+          id: "mem3",          name: "Zaid",          role: "Travel Concierge",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-overweight-couple-traveling-world-world-tourism-day_23-2151700158.jpg"},
       ]}
       title="Hospitality Rooted in Care"
       description="Meet the team that makes your stay truly exceptional through personal attention and local insight."
@@ -316,25 +205,13 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "f1",
-          title: "Is the hotel family-friendly?",
-          content: "Yes. Many families choose Hotel The Kashmir for its peaceful atmosphere and spacious rooms.",
-        },
+          id: "f1",          title: "Is the hotel family-friendly?",          content: "Yes. Many families choose Hotel The Kashmir for its peaceful atmosphere and spacious rooms."},
         {
-          id: "f2",
-          title: "How far is Dal Lake?",
-          content: "The hotel is located approximately 2 km from Dal Lake, roughly a 10-minute drive.",
-        },
+          id: "f2",          title: "How far is Dal Lake?",          content: "The hotel is located approximately 2 km from Dal Lake, roughly a 10-minute drive."},
         {
-          id: "f3",
-          title: "Does the hotel help with local travel?",
-          content: "Yes. Taxi and travel assistance are available for sightseeing and airport transfers.",
-        },
+          id: "f3",          title: "Does the hotel help with local travel?",          content: "Yes. Taxi and travel assistance are available for sightseeing and airport transfers."},
         {
-          id: "f4",
-          title: "Is the environment peaceful?",
-          content: "Absolutely. Guests frequently mention the calm and relaxing atmosphere.",
-        },
+          id: "f4",          title: "Is the environment peaceful?",          content: "Absolutely. Guests frequently mention the calm and relaxing atmosphere."},
       ]}
       title="Frequently Asked Questions"
       description="Have questions? We have answers to ensure a peaceful Srinagar stay."
@@ -346,18 +223,13 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       text="Your Kashmir Escape Starts Here. Wake up to peaceful surroundings, elegant interiors, and heartfelt hospitality in the heart of Srinagar."
       buttons={[
         {
-          text: "Book Now",
-          href: "#",
-        },
+          text: "Book Now",          href: "#"},
         {
-          text: "Contact Us",
-          href: "#",
-        },
+          text: "Contact Us",          href: "#"},
       ]}
     />
   </div>
@@ -367,46 +239,29 @@ export default function LandingPage() {
       logoText="Hotel The Kashmir"
       columns={[
         {
-          title: "Explore",
-          items: [
+          title: "Explore",          items: [
             {
-              label: "Rooms",
-              href: "#rooms",
-            },
+              label: "Rooms",              href: "#rooms"},
             {
-              label: "Dining",
-              href: "#dining",
-            },
+              label: "Dining",              href: "#dining"},
             {
-              label: "Gallery",
-              href: "#gallery",
-            },
+              label: "Gallery",              href: "#gallery"},
           ],
         },
         {
-          title: "Help",
-          items: [
+          title: "Help",          items: [
             {
-              label: "FAQ",
-              href: "#faq",
-            },
+              label: "FAQ",              href: "#faq"},
             {
-              label: "Contact Us",
-              href: "#contact",
-            },
+              label: "Contact Us",              href: "#contact"},
           ],
         },
         {
-          title: "Legal",
-          items: [
+          title: "Legal",          items: [
             {
-              label: "Privacy",
-              href: "#",
-            },
+              label: "Privacy",              href: "#"},
             {
-              label: "Terms",
-              href: "#",
-            },
+              label: "Terms",              href: "#"},
           ],
         },
       ]}
