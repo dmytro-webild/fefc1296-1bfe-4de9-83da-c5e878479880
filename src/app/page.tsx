@@ -224,7 +224,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "gradient-bars"}}
-      text="Your Kashmir Escape Starts Here. Wake up to peaceful surroundings, elegant interiors, and heartfelt hospitality in the heart of Srinagar."
+      text="Your Kashmir Escape Starts Here. Wake up to peaceful surroundings, elegant interiors, and heartfelt hospitality in the heart of Srinagar. Contact us at 099063 25865."
       buttons={[
         {
           text: "Book Now",          href: "#"},
